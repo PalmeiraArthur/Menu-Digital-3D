@@ -4,8 +4,6 @@ const form = {
     confirmPassword: () => document.getElementById('confirmPassword')
 }
 
-
-
 function createAccount() {
     const password = form.password().value
     const confirmPassword = form.confirmPassword().value
@@ -19,6 +17,7 @@ function createAccount() {
     }    
 
 }
+
 function cadastro() {
     const email = form.email().value
     const password = form.password().value
